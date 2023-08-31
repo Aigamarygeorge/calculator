@@ -8,8 +8,24 @@ let sumEl= document.getElementById("sum-el")
 function add() {
   let result = num1 + num2
 
-  sumEl.textContent = "Result" + result
+  sumEl.textContent = "Result: " + result
 }
 
+function subtract() {
+  let result = num1 - num2
 
-  
+  sumEl.textContent = "Result: " + result
+}
+
+function divide() {
+  let result = num1 / num2
+
+  sumEl.textContent = "Result: " + result
+}
+
+function multiply() {
+  let result = num1 - num2
+
+  sumEl.textContent = "Result: " + result
+}
+
