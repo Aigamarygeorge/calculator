@@ -6,5 +6,10 @@ document.getElementById("num2-el").textContent= num2
 let sumEl= document.getElementById("sum-el")
 
 function add() {
-  let sum = num1 + num2
+  let result = num1 + num2
+
+  sumEl.textContent = "Result" + result
+}
+
+
   
